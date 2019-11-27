@@ -1,57 +1,58 @@
 entidade_id,ver,pag,classe,entidade,geom,dimensao,tema_id,tema,subtema_id,subtema,entidade_definicao
-01.01,v0.7,26,Freguesia,Freguesia ,polígono,2D,01,Unidades Administrativas,,,Classificação de mais baixa hierarquia dentro dos níveis possíveis no quadro de divisão administrativa estabelecida de acordo com a Constituição Portuguesa.
-01.02,v0.7,27,Concelho,Concelho,polígono,2D,01,Unidades Administrativas,,,Divisão administrativa estabelecida de acordo com a Constituição Portuguesa.
-01.03,v0.7,27,Distrito,Distrito,polígono,2D,01,Unidades Administrativas,,,Divisão administrativa estabelecida de acordo com a Constituição Portuguesa.
-01.04,v0.7,28,Fronteira,Fronteira,linha,2D,01,Unidades Administrativas,,,Linha que representa a fronteira de Portugal.
-02.01,v0.7,29,DesignacaoLocal,Designação local ,ponto,2D,02,Toponímia,,,Designação de uma entidade do mundo real referenciada através de um ou mais nomes próprios.
-03.01 ,v0.7,31,CurvaDeNivel,Curva de nível ,linha,3D,03,Altimetria ,,,"Linha imaginária que resulta da interseção de uma superfície de nível com o terreno na qual todos os pontos têm igual valor de elevação, referida esta a um determinado Datum Altimétrico."
-03.02,v0.7,32,LinhaDeQuebra,Linha de quebra,linha,3D,03,Altimetria ,,,Linha crítica que descreve a forma de uma superfície altimétrica e indica uma descontinuidade no declive do terreno.
-03.03,v0.7,33,PontoCotado,Ponto cotado,ponto,3D,03,Altimetria ,,,Projeção ortogonal de um ponto do terreno no plano.
-03.04,v0.7,33,,Modelo Digital do Terreno,-,3D,03,Altimetria ,,,Superfície obtida de forma independente ou derivada da informação vetorial referida – o Modelo Digital do Terreno (MDT).
-04.01 ,v0.7,35,AguaLentica,Água lêntica ,polígono,3D,04,Hidrografia,,,Massa de água totalmente rodeada por terra ou localizada junto à costa.
-04.02,v0.7,37,Barreira,Barreira,ponto; polígono,2D,04,Hidrografia,,,Barreira permanente num curso de água utilizada para reter a água ou para controlar o seu caudal.
-04.03,v0.7,37,CursoDeAgua,Curso de água,linha; polígono,3D,04,Hidrografia,,,"Trajeto das águas de um rio, riacho, ribeira ou outra corrente natural ou artificial."
-04.04,v0.7,39,FronteiraTerraAgua,Fronteira terra-água,linha,3D,04,Hidrografia,,,Linha que estabelece a fronteira entre a terra e a água e que representa a “linha de costa” assim como o limite das ilhas em águas interiores e no mar.
-04.05,v0.7,40,Margem,Margem,polígono,2D,04,Hidrografia,,,Faixa de terra em contacto com qualquer massa de água.
-04.06,v0.7,40,Nascente,Nascente,ponto,3D,04,Hidrografia,,,Ponto da superfície do solo (a céu aberto) de onde brota água ou nasce um curso de água.
-04.07,v0.7,41,NoHidrografico,Nó hidrográfico,ponto,3D,04,Hidrografia,,,Ponto utilizado para representar a conectividade entre segmentos da rede hidrográfica.
-04.08,v0.7,42,QuedaDeAgua,Queda de água,ponto,2D,04,Hidrografia,,,Local onde ocorre a queda de uma massa de água devido a um desnível no curso de água.
-04.09,v0.7,43,ZonaHumida,Zona húmida,polígono,3D,04,Hidrografia,,,Área mal drenada ou periodicamente inundada em que o solo se encontra saturado de água e onde cresce vegetação.
-05.01 ,v0.7,51,AreaInfraTransAereo,Área da infraestrutura de transporte aéreo ,polígono,2D,05,Transportes ,05.01,Transporte aéreo,"Área que dispõe de instalações, equipamentos e serviços destinados ao tráfego aéreo."
-05.02,v0.7,51,InfraTransAereo,Infraestrutura de transporte aéreo,ponto,2D,05,Transportes ,05.01,Transporte aéreo,Ponto que caracteriza a área da infraestrutura de transporte aéreo.
-05.03,v0.7,52,AreaInfraTransFerrov,Área da infraestrutura de transporte ferroviário,polígono,2D,05,Transportes ,05.02,Transporte ferroviário,"Área que dispõe de instalações, equipamentos e serviços destinados ao tráfego ferroviário."
-05.04,v0.7,52,InfraTransFerrov,Infraestrutura de transporte ferroviário,ponto,2D,05,Transportes ,05.02,Transporte ferroviário,Ponto que caracteriza a área da infraestrutura de transporte ferroviário.
-05.05,v0.7,53,LinhaFerrea,Linha férrea,-,-,05,Transportes ,05.02,Transporte ferroviário,Caracterização da linha férrea. Corresponde a um extrato do Catálogo de linhas férreas para a área geográfica representada.
-05.06,v0.7,54,NoTransFerrov,Nó de transporte ferroviário,ponto,3D,05,Transportes ,05.02,Transporte ferroviário,"Ponto utilizado para representar a conectividade entre segmentos da via ferroviária, estabelecer a relação com outras vias de comunicação e com as infraestruturas associadas à ferrovia."
-05.07,v0.7,54,SegViaFerrea,Segmento da via férrea,linha,3D,05,Transportes ,05.02,Transporte ferroviário,Eixo da via férrea.
-05.08,v0.7,56,AreaInfraTransCabo,Área da infraestrutura de transporte por cabo,polígono,2D,05,Transportes ,05.03,Transporte por cabo,"Área que dispõe de instalações, equipamentos e serviços destinados ao transporte por cabo."
-05.09,v0.7,56,SegViaCabo,Segmento da via por cabo,linha,2D,05,Transportes ,05.03,Transporte por cabo,Linha de transporte de pessoas ou de materiais por meio de cabo suspenso.
-05.10,v0.7,57,AreaInfraTransViaNavegavel,Área da infraestrutura de transporte por via navegável,polígono,2D,05,Transportes ,05.04,Transporte por via navegável,"Área que dispõe de instalações, equipamentos e serviços destinados ao tráfego por via navegável."
-05.11,v0.7,57,InfraTransViaNavegavel,Infraestrutura de transporte por via navegável,ponto,2D,05,Transportes ,05.04,Transporte por via navegável,Ponto que caracteriza a área da infraestrutura de transporte por via navegável.
-05.12,v0.7,58,AreaInfraTransRodov,Área da infraestrutura de transporte rodoviário,polígono,2D,05,Transportes ,05.05,Transporte rodoviário,"Área que dispõe de instalações, equipamentos e serviços destinados ao tráfego rodoviário."
-05.13,v0.7,58,InfraTransRodov,Infraestrutura de transporte rodoviário,ponto,2D,05,Transportes ,05.05,Transporte rodoviário,Ponto que caracteriza a área da infraestrutura de transporte rodoviário.
-05.14,v0.7,59,NoTransRodov,Nó de transporte rodoviário,ponto,3D,05,Transportes ,05.05,Transporte rodoviário,"Ponto utilizado para representar a conectividade entre segmentos da via rodoviária, estabelecer a relação com outras vias de comunicação e com as infraestruturas associadas à via rodoviária."
-05.15,v0.7,60,ObraArte,Obra de arte,polígono,3D,05,Transportes ,05.05,Transporte rodoviário,"Estrutura destinada à transposição de linhas de água, vales ou vias destinadas ao tráfego rodoviário, pedonal ou fauna."
-05.16,v0.7,60,SegViaRodov,Segmento da via rodoviária,linha,3D,05,Transportes ,05.05,Transporte rodoviário,Eixo da faixa de rodagem da via rodoviária.
-05.17,v0.7,63,ViaRodov,Via rodoviária,-,-,05,Transportes ,05.05,Transporte rodoviário,Caracterização das vias rodoviárias. Corresponde a um extrato do Catálogo de vias rodoviárias para a área geográfica representada.
-05.18,v0.7,64,ViaRodovLimite,Via rodoviária - Limite,linha,3D,05,Transportes ,05.05,Transporte rodoviário,Linha que materializa os limites da via rodoviária.
-06.01,v0.7,66,ConstruLinear,Construção linear,linha,2D,06,Construções,,,Construção com forma linear utilizada para separar ou limitar áreas geográficas.
-06.02,v0.7,66,ConstruPolig,Construção poligonal,ponto; polígono,2D,06,Construções,,,Construção poligonal não classificada como “Edifício”.
-06.03,v0.7,67,Edificio,Edifício,ponto; polígono,2D,06,Construções,,,"Construção em alvenaria, betão ou outro material, com um ou vários pisos, de caráter permanente, em geral limitada por paredes e teto, que serve de habitação ou constitui um espaço comercial, industrial, administrativo, religioso, cultural, etc."
-06.04,v0.7,69,PontoInteresse,Pontos de interesse,ponto; polígono,2D,06,Construções,,,Fenómeno do mundo real a que corresponde uma localização específica com especial relevância.
-06.05 ,v0.7,70,SinalGeodesico,Sinal geodésico ,ponto,3D,06,Construções,,,"Ponto da rede geodésica nacional cujas coordenadas geográficas e posição relativa, referidas a um elipsoide de referência, são conhecidas com grande exatidão. A coordenada altimétrica é representada através da altitude ortométrica no terreno."
-07.01,v0.7,72,AreaAgricolaFlorestalMato,"Área agrícola, florestal ou mato ",polígono,2D,07,Ocupação do solo ,,,Áreas naturais de ocupação do solo.
-07.02,v0.7,73,AreasArtificializadas,Área artificializada ,polígono,2D,07,Ocupação do solo ,,,Área artificializada de ocupação do solo.
-08.01,v0.7,74,CaboEletrico,Cabo elétrico ,linha,2D,08,Infraestruturas e serviços públicos ,,,Feixe de fios entrelaçados para transportar eletricidade de um local para outro.
-08.02,v0.7,75,CondutaDeAgua,Conduta de água,linha,2D,08,Infraestruturas e serviços públicos ,,,Conduta utilizada para transportar água de um local para outro.
-08.03,v0.7,76,ElemAssocAgua,Elemento associado de água,ponto; polígono,2D,08,Infraestruturas e serviços públicos ,,,Equipamento associado ao transporte ou distribuição de água.
-08.04,v0.7,76,ElemAssocEletricidade,Elemento associado de eletricidade,ponto; polígono,2D,08,Infraestruturas e serviços públicos ,,,Instalação associada à transformação e distribuição de energia elétrica.
-08.05,v0.7,77,ElemAssocPGQ,"Elemento associado de petróleo, gás e substâncias químicas",ponto; polígono,2D,08,Infraestruturas e serviços públicos ,,,Instalação de armazenamento ou distribuição de produtos químicos.
-08.06,v0.7,77,ElemAssocTelecomunicacoes,Elemento associado de telecomunicações,ponto,2D,08,Infraestruturas e serviços públicos ,,,Instalação associada ao funcionamento da rede de telecomunicações.
-08.07,v0.7,78,InstGestaoAmbiental,Instalação de gestão ambiental,-,-,08,Infraestruturas e serviços públicos ,,,Infraestrutura de tratamento de resíduos.
-08.08,v0.7,78,InstProducao,Instalação de produção,-,-,08,Infraestruturas e serviços públicos ,,,"Instalação técnica para fins específicos industriais ou de produção, compreendendo todos os equipamentos."
-08.09,v0.7,79,OleodutoGasodutoSubtanciasQuimicas,"Oleoduto, gasoduto ou substâncias químicas",linha,2D,08,Infraestruturas e serviços públicos ,,,"Tubagem utilizada para transportar petróleo, gás ou produtos químicos de um local para outro."
-08.10,v0.7,79,ServicoPublico,Serviço público,-,-,08,Infraestruturas e serviços públicos ,,,Serviço administrativo e social.
-09.01,v0.7,81,EquipamentoUrbano,Equipamento urbano,ponto; polígono,2D,09,Equipamento urbano,,,Equipamento de utilidade pública destinado à prestação de serviços necessários ao funcionamento dos aglomerados urbanos.
-10.01,v0.7,82,Ortofotos,Ortofotos,-,2D,10,Ortofotos,,,"Imagens aéreas ortorretificadas com 4 bandas radiométricas - Vermelho, Verde, Azul e Infravermelho próximo, ou apenas com 3 - Vermelho, Verde, Azul, recolhidas por satélites ou sensores aéreos."
-11.01,v0.7,83,AreaTrabalho,Área de trabalho,polígono,2D,11,Auxiliar,,,Perímetro correspondente ao âmbito territorial dos dados associados.
+01.01,v1.0,27,Freguesia,Freguesia ,polígono,2D,01,Unidades Administrativas,,,Classificação de mais baixa hierarquia dentro dos níveis possíveis no quadro de divisão administrativa estabelecida de acordo com a Constituição Portuguesa.
+01.02,v1.0,28,Concelho,Concelho,polígono,2D,01,Unidades Administrativas,,,Divisão administrativa estabelecida de acordo com a Constituição Portuguesa.
+01.03,v1.0,28,Distrito,Distrito,polígono,2D,01,Unidades Administrativas,,,Divisão administrativa estabelecida de acordo com a Constituição Portuguesa.
+01.04,v1.0,29,Fronteira,Fronteira,linha,2D,01,Unidades Administrativas,,,Linha que representa a fronteira de Portugal.
+02.01,v1.0,30,DesignacaoLocal,Designação local ,ponto,2D,02,Toponímia,,,Designação de uma entidade do mundo real referenciada através de um ou mais nomes próprios.
+03.01 ,v1.0,31,CurvaDeNivel,Curva de nível ,linha,3D,03,Altimetria ,,,"Linha imaginária que resulta da interseção de uma superfície de nível com o terreno na qual todos os pontos têm igual valor de elevação, referida esta a um determinado Datum Altimétrico."
+03.02,v1.0,31,LinhaDeQuebra,Linha de quebra,linha,3D,03,Altimetria ,,,Linha crítica que descreve a forma de uma superfície altimétrica e indica uma descontinuidade no declive do terreno.
+03.03,v1.0,32,PontoCotado,Ponto cotado,ponto,3D,03,Altimetria ,,,Projeção ortogonal de um ponto do terreno no plano.
+03.04,v1.0,33,,Modelo Digital do Terreno,-,3D,03,Altimetria ,,,
+04.01 ,v1.0,35,AguaLentica,Água lêntica ,polígono,3D,04,Hidrografia,,,Massa de água totalmente rodeada por terra ou localizada junto à costa.
+04.02,v1.0,36,Barreira,Barreira,ponto; polígono,2D,04,Hidrografia,,,Barreira permanente num curso de água utilizada para reter a água ou para controlar o seu caudal.
+04.03,v1.0,37,CursoDeAgua,Curso de água,linha; polígono,3D,04,Hidrografia,,,"Trajeto das águas de um rio, riacho, ribeira ou outra corrente natural ou artificial."
+04.04,v1.0,39,FronteiraTerraAgua,Fronteira terra-água,linha,3D,04,Hidrografia,,,Linha que estabelece a fronteira entre a terra e a água e que representa a “linha de costa” assim como o limite das ilhas em águas interiores e no mar.
+04.05,v1.0,40,Margem,Margem,polígono,2D,04,Hidrografia,,,Faixa de terra em contacto com qualquer massa de água.
+04.06,v1.0,40,Nascente,Nascente,ponto,3D,04,Hidrografia,,,Ponto da superfície do solo (a céu aberto) de onde brota água ou nasce um curso de água.
+04.07,v1.0,41,NoHidrografico,Nó hidrográfico,ponto,3D,04,Hidrografia,,,Ponto utilizado para representar a conectividade entre segmentos da rede hidrográfica.
+04.08,v1.0,42,QuedaDeAgua,Queda de água,ponto,2D,04,Hidrografia,,,Local onde ocorre a queda de uma massa de água devido a um desnível no curso de água.
+04.09,v1.0,43,ZonaHumida,Zona húmida,polígono,3D,04,Hidrografia,,,Área mal drenada ou periodicamente inundada em que o solo se encontra saturado de água e onde cresce vegetação.
+05.01 ,v1.0,53,AreaInfraTransAereo,Área da infraestrutura de transporte aéreo ,polígono,2D,05,Transportes ,05.01,Transporte aéreo,"Área que dispõe de instalações, equipamentos e serviços destinados ao tráfego aéreo."
+05.02,v1.0,53,InfraTransAereo,Infraestrutura de transporte aéreo,ponto,2D,05,Transportes ,05.01,Transporte aéreo,Ponto que caracteriza a área da infraestrutura de transporte aéreo.
+05.03,v1.0,54,AreaInfraTransFerrov,Área da infraestrutura de transporte ferroviário,polígono,2D,05,Transportes ,05.02,Transporte ferroviário,"Área que dispõe de instalações, equipamentos e serviços destinados ao tráfego ferroviário."
+05.04,v1.0,55,InfraTransFerrov,Infraestrutura de transporte ferroviário,ponto,2D,05,Transportes ,05.02,Transporte ferroviário,Ponto que caracteriza a área da infraestrutura de transporte ferroviário.
+05.05,v1.0,56,LinhaFerrea,Linha férrea,-,-,05,Transportes ,05.02,Transporte ferroviário,Caracterização da linha férrea. Corresponde a um extrato do Catálogo de linhas férreas para a área geográfica representada.
+05.06,v1.0,56,NoTransFerrov,Nó de transporte ferroviário,ponto,3D,05,Transportes ,05.02,Transporte ferroviário,"Ponto utilizado para representar a conectividade entre segmentos da via ferroviária, estabelecer a relação com outras vias de comunicação e com as infraestruturas associadas à ferrovia."
+05.07,v1.0,57,SegViaFerrea,Segmento da via-férrea,linha,3D,05,Transportes ,05.02,Transporte ferroviário,Eixo da via férrea.
+05.08,v1.0,59,AreaInfraTransCabo,Área da infraestrutura de transporte por cabo,polígono,2D,05,Transportes ,05.03,Transporte por cabo,"Área que dispõe de instalações, equipamentos e serviços destinados ao transporte por cabo."
+05.09,v1.0,59,SegViaCabo,Segmento da via por cabo,linha,2D,05,Transportes ,05.03,Transporte por cabo,Linha de transporte de pessoas ou de materiais por meio de cabo suspenso.
+05.10,v1.0,60,AreaInfraTransViaNavegavel,Área da infraestrutura de transporte por via navegável,polígono,2D,05,Transportes ,05.04,Transporte por via navegável,"Área que dispõe de instalações, equipamentos e serviços destinados ao tráfego por via navegável."
+05.11,v1.0,60,InfraTransViaNavegavel,Infraestrutura de transporte por via navegável,ponto,2D,05,Transportes ,05.04,Transporte por via navegável,Ponto que caracteriza a área da infraestrutura de transporte por via navegável.
+05.12,v1.0,61,AreaInfraTransRodov,Área da infraestrutura de transporte rodoviário,polígono,2D,05,Transportes ,05.05,Transporte rodoviário,"Área que dispõe de instalações, equipamentos e serviços destinados ao tráfego rodoviário."
+05.13,v1.0,61,InfraTransRodov,Infraestrutura de transporte rodoviário,ponto,2D,05,Transportes ,05.05,Transporte rodoviário,Ponto que caracteriza a área da infraestrutura de transporte rodoviário.
+05.14,v1.0,62,NoTransRodov,Nó de transporte rodoviário,ponto,3D,05,Transportes ,05.05,Transporte rodoviário,"Ponto utilizado para representar a conectividade entre segmentos da via rodoviária, estabelecer a relação com outras vias de comunicação e com as infraestruturas associadas à via rodoviária."
+05.15,v1.0,63,ObraArte,Obra de arte,polígono,3D,05,Transportes ,05.05,Transporte rodoviário,"Estrutura destinada à transposição de linhas de água, vales ou vias destinadas ao tráfego rodoviário, pedonal ou fauna."
+05.16,v1.0,63,SegViaRodov,Segmento da via rodoviária,linha,3D,05,Transportes ,05.05,Transporte rodoviário,Eixo da faixa de rodagem da via rodoviária.
+05.17,v1.0,65,ViaRodov,Via rodoviária,-,-,05,Transportes ,05.05,Transporte rodoviário,Caracterização das vias rodoviárias. Corresponde a um extrato do Catálogo de vias rodoviárias para a área geográfica representada.
+05.18,v1.0,67,ViaRodovLimite,Via rodoviária - Limite,linha,3D,05,Transportes ,05.05,Transporte rodoviário,Linha que materializa os limites da via rodoviária.
+06.01,v1.0,68,ConstruLinear,Construção linear,linha,2D,06,Construções,,,Construção com forma linear utilizada para separar ou limitar áreas geográficas.
+06.02,v1.0,69,ConstruPolig,Construção poligonal,ponto; polígono,2D,06,Construções,,,Construção poligonal não classificada como “Edifício”.
+06.03,v1.0,70,Edificio,Edifício,ponto; polígono,2D,06,Construções,,,"Construção em alvenaria, betão ou outro material, com um ou vários pisos, de caráter permanente, em geral limitada por paredes e teto, que serve de habitação ou constitui um espaço comercial, industrial, administrativo, religioso, cultural, etc."
+06.04,v1.0,71,PontoInteresse,Pontos de interesse,ponto; polígono,2D,06,Construções,,,Fenómeno do mundo real a que corresponde uma localização específica com especial relevância.
+06.05 ,v1.0,72,SinalGeodesico,Sinal geodésico ,ponto,3D,06,Construções,,,"Ponto da rede geodésica nacional cujas coordenadas geográficas e posição relativa, referidas a um elipsoide de referência, são conhecidas com grande exatidão. A coordenada altimétrica é representada através da altitude ortométrica no terreno."
+07.01,v1.0,74,AreaAgricolaFlorestalMato,"Área agrícola, florestal ou mato ",polígono,2D,07,Ocupação do solo ,,,Áreas naturais de ocupação do solo.
+07.02,v1.0,75,AreasArtificializadas,Área artificializada ,polígono,2D,07,Ocupação do solo ,,,Área artificializada de ocupação do solo.
+08.01,v1.0,76,AdmPublica,Administração pública e órgãos de soberania,-,-,08,Infraestruturas e serviços públicos ,,,Serviço da administração pública e órgãos de soberania.
+08.02,v1.0,77,CaboEletrico,Cabo elétrico ,linha,2D,08,Infraestruturas e serviços públicos ,,,Feixe de fios entrelaçados para transportar eletricidade de um local para outro.
+08.03,v1.0,77,CondutaDeAgua,Conduta de água,linha,2D,08,Infraestruturas e serviços públicos ,,,Conduta utilizada para transportar água de um local para outro.
+08.04,v1.0,78,ElemAssocAgua,Elemento associado de água,ponto; polígono,2D,08,Infraestruturas e serviços públicos ,,,Equipamento associado ao transporte ou distribuição de água.
+08.05,v1.0,79,ElemAssocEletricidade,Elemento associado de eletricidade,ponto; polígono,2D,08,Infraestruturas e serviços públicos ,,,Infraestrutura associada à transformação e distribuição de energia elétrica.
+08.06,v1.0,79,ElemAssocPGQ,"Elemento associado de petróleo, gás e substâncias químicas",ponto; polígono,2D,08,Infraestruturas e serviços públicos ,,,Infraestrutura de armazenamento ou distribuição de produtos químicos.
+08.07,v1.0,80,ElemAssocTelecomunicacoes,Elemento associado de telecomunicações,ponto,2D,08,Infraestruturas e serviços públicos ,,,Infraestrutura associada ao funcionamento da rede de telecomunicações.
+08.08,v1.0,80,EquipUtilColetiva,Equipamento de utilização coletiva,-,-,08,Infraestruturas e serviços públicos ,,,Equipamento para prestação de serviços de interesse coletivo.
+08.09,v1.0,81,InstGestaoAmbiental,Instalação de gestão ambiental,-,-,08,Infraestruturas e serviços públicos ,,,Infraestrutura de gestão de resíduos ou águas residuais.
+08.10,v1.0,81,InstProducao,Instalação de produção,-,-,08,Infraestruturas e serviços públicos ,,,"Instalação técnica para fins específicos industriais ou de produção, compreendendo todos os equipamentos."
+08.11,v1.0,82,OleodutoGasodutoSubtanciasQuimicas,"Oleoduto, gasoduto ou substâncias químicas",linha,2D,08,Infraestruturas e serviços públicos ,,,"Tubagem utilizada para transportar petróleo, gás ou produtos químicos de um local para outro."
+09.01,v1.0,83,MobUrbanoSinal,Mobiliário urbano e sinalização,ponto; polígono,2D,09,Mobiliário urbano e sinalização,,,Equipamento de utilidade pública destinado à prestação de serviços necessários ao funcionamento dos aglomerados urbanos.
+10.01,v1.0,84,Ortofotos,Ortofotos,-,-,10,Ortofotos,,,"Imagens aéreas ortorretificadas com 4 bandas radiométricas - Vermelho, Verde, Azul e Infravermelho próximo, ou apenas com 3 - Vermelho, Verde, Azul, recolhidas por satélites ou sensores aéreos."
+11.01,v1.0,85,AreaTrabalho,Área de trabalho,polígono,2D,11,Auxiliar,,,Perímetro correspondente ao âmbito territorial dos dados associados.
