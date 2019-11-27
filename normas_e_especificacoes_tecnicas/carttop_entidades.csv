@@ -1,0 +1,58 @@
+entidade_id,ver,pag,classe,entidade,geom,dimensao,tema_id,tema,subtema_id,subtema,entidade_definicao
+1,v0.4,20,DesignacaoLocal,Designação local,GM_Point,2D,02,Toponímia,,,Designação de uma entidade do mundo real referenciada por um ou mais nomes próprios.
+2,v0.4,21,PontoInteresse,Ponto de interesse,GM_Point,2D,02,Toponímia,,,Entidade do mundo real a que corresponde uma localização específica com especial relevância.
+3,v0.4,22,SinalGeodesico,Sinal geodésico,GM_Point,3D,02,Toponímia,,,"Ponto da rede geodésica nacional cujas coordenadas geográficas e posição relativa, referidas a um elipsoide de referência, são conhecidas com grande exatidão."
+4,v0.4,24,Toponimo,Topónimo,-,-,02,Toponímia,,,"Denominações das zonas, regiões, localidades, cidades, subúrbios, pequenas cidades ou povoações, ou de qualquer entidade geográfica ou topográfica de interesse público ou histórico."
+5,v0.4,25,CurvaDeNivel,Curva de Nível,GM_Curve,3D,03,Altimetria,,,"Linha imaginária que resulta da interseção de uma superfície de nível com o terreno na qual todos os pontos têm igual valor de elevação, referida esta a um determinado Datum Altimétrico."
+6,v0.4,26,LinhaDeQuebra,Linha de quebra,GM_Curve,3D,03,Altimetria,,,Uma linha crítica que descreve a forma de uma superfície altimétrica e indica uma descontinuidade no declive da superfície.
+7,v0.4,28,PontoCotado,Ponto cotado,GM_Point,3D,03,Altimetria,,,Ponto em que o valor da altitude é determinado a partir do Datum Altimétrico.
+8,v0.4,29,MDT,Modelo digital do terreno,-,3D,03,Altimetria,,,O MDT é constituído por pontos igualmente espaçados com o valor da altitude ortométrica (cota) no sistema de referência altimétrico adotado.
+9,v0.4,30,AcudeOuRepresa,Açude ou Represa,GM_Curve,3D,04,Hidrografia,,,Barreira permanente num curso de água utilizada para reter a água ou para controlar o seu caudal.
+10,v0.4,32,AguasLenticas,Águas lênticas,GM_Surface,3D,04,Hidrografia,,,"Massa de água que está totalmente rodeada por terra (ex. lagoas, lagos e albufeiras)."
+11,v0.4,34,Comporta,Comporta,GM_Point; GM_Surface,2D,04,Hidrografia,,,"Porta que sustem as águas de dique, açude, represa, ou barragem e que pode abrir-se para escoamento da água."
+12,v0.4,35,CursoDeAgua,Curso de água,GM_Curve; GM_Surface,3D,04,Hidrografia,,,"Traçado ou trajeto das águas de um rio, riacho, ribeira ou outra corrente."
+13,v0.4,38,Eclusa,Eclusa,GM_Point; GM_Surface,3D,04,Hidrografia,,,"Obra hidráulica construída sobre um rio ou em zona portuária, com uma ou várias comportas, para permitir a navegação quando seja necessário vencer grandes desníveis."
+14,v0.4,40,FronteiraTerraAgua,Fronteira terra-água,GM_Curve,3D,04,Hidrografia,,,"Linha que estabelece a fronteira entre terra e água cuja data de obtenção, referida no atributo ""data"", corresponde à da fonte de dados utilizada (ex. linha que delimita ilhas e que separa a terra do mar na zona costeira)."
+15,v0.4,41,Margem,Margem,GM_Surface,3D,04,Hidrografia,,,"Faixa estreita de terra em contacto imediato com qualquer massa de água, incluindo a área entre as linhas de águas altas e baixas."
+16,v0.4,42,Nascente,Nascente,GM_Point,3D,04,Hidrografia,,,Ponto da superfície do solo de onde brota água ou onde nasce um curso de água.
+17,v0.4,44,NoHidrografico,Nó hidrográfico,GM_Point,3D,04,Hidrografia,,,Ponto utilizado para representar a conectividade entre segmentos da rede hidrográfica.
+18,v0.4,45,PassagemDeAgua,Passagem de água,GM_Curve,3D,04,Hidrografia,,,Objeto artificial que permite a passagem de água por cima ou por baixo de um obstáculo.
+19,v0.4,47,QuedaDeAgua,Queda de água,GM_Point; GM_Surface,3D,04,Hidrografia,,,Local onde ocorre a queda de uma massa de água devido a um desnível no curso de um rio.
+20,v0.4,48,Talude,Talude,GM_Curve,3D,04,Hidrografia,,,"Estrutura artificial elevada, composta por terra ou outro material, destinada à contenção e condução da água."
+21,v0.4,49,ZonaHumida,Zona húmida,GM_Surface,3D,04,Hidrografia,,,Área mal drenada ou periodicamente inundada em que o solo se encontra saturado de água e onde cresce vegetação.
+22,v0.4,52,TransNoViaCabo,Nó de via por cabo,GM_Point,2D,05,Transportes,05.01,Transporte por cabo,Ponto utilizado para representar a conectividade entre segmentos da via por cabo e estabelecer a relação com outras vias de comunicação.
+23,v0.4,52,TransSegViaCabo,Segmento de via por cabo,GM_Curve,2D,05,Transportes,05.01,Transporte por cabo,Linha de transporte aéreo de pessoas ou de materiais por meio de cabo suspenso.
+24,v0.4,54,TransInfraAereoAreas,Área da Infraestrutura de transporte aéreo,GM_Surface,2D,05,Transportes,05.02,Transporte aéreo,Componentes associadas à rede de transporte aéreo.
+25,v0.4,55,TransInfraAereo,Infraestrutura de transporte aéreo,GM_Point,2D,05,Transportes,05.02,Transporte aéreo,Objeto geográfico com representação pontual que caracteriza as infraestruturas de transporte aéreo.
+26,v0.4,57,TransNoAerodromo,Nó de aeródromo,GM_Point,2D,05,Transportes,05.02,Transporte aéreo,Ponto utilizado para estabelecer a relação com as vias de comunicação e com as infraestruturas associadas ao aeródromo.
+27,v0.4,58,TransInfraViaNavegavelAreas,Áreas da Infraestrutura de transporte por via navegável,GM_Surface,2D,05,Transportes,05.03,Transporte por via navegável,Componentes associadas à rede de transporte por via navegável.
+28,v0.4,59,TransInfraViaNavegavel,Infraestrutura de transporte por via navegável,GM_Point,2D,05,Transportes,05.03,Transporte por via navegável,Objeto geográfico com representação pontual que caracteriza as infraestruturas de transporte por via navegável.
+29,v0.4,61,TransNoViaAquatica,Nó de via navegável,GM_Point,2D,05,Transportes,05.03,Transporte por via navegável,Ponto utilizado para estabelecer a relação com outras vias de comunicação e com as infraestruturas associadas à via navegável.
+30,v0.4,62,TransInfraFerrovAreas,Áreas da Infraestrutura de transporte ferroviário,GM_Surface,2D,05,Transportes,05.04,Transporte ferroviário,Componentes associadas à rede de transporte ferroviário.
+31,v0.4,63,TransInfraFerrov,Infraestrutura de transporte ferroviário,GM_Point,2D,05,Transportes,05.04,Transporte ferroviário,Objeto geográfico com representação pontual que caracteriza as infraestruturas de transporte ferroviário.
+32,v0.4,65,TransLinhaFerrea,Linha férrea,-,-,05,Transportes,05.04,Transporte ferroviário,Caracterização da linha férrea.
+33,v0.4,66,TransNoFerrov,Nó ferroviário,GM_Point,3D,05,Transportes,05.04,Transporte ferroviário,"Ponto utilizado para representar a conectividade entre segmentos da ferrovia, estabelecer a relação com outras vias de comunicação e com as infraestruturas associadas à ferrovia."
+34,v0.4,67,TransSegViaFerrea,Segmento de linha férrea,GM_Curve,3D,05,Transportes,05.04,Transporte ferroviário,Objeto geográfico linear que descreve a geometria e conectividade entre dois pontos da rede ferroviária.
+35,v0.4,70,TransInfraEstradaAreas,Áreas de Infraestrutura de transporte rodoviário,GM_Surface,2D,05,Transportes,05.04,Transporte rodoviário,Área que inclui instalações associadas ao transporte rodoviário.
+36,v0.4,70,TransEstrada,Estrada,-,-,05,Transportes,05.04,Transporte rodoviário,Caracterização da via rodoviária.
+37,v0.4,72,TransBerma,Estrada - Berma,GM_Curve,3D,05,Transportes,05.04,Transporte rodoviário,Linha que limita o exterior da faixa de rodagem.
+38,v0.4,73,TransLimite,Estrada - Limite,GM_Curve,3D,05,Transportes,05.04,Transporte rodoviário,Linha que materializa o separador central ou o protetor lateral.
+39,v0.4,73,TransInfraEstrada,Infraestrutura de transporte rodoviário,GM_Point,2D,05,Transportes,05.04,Transporte rodoviário,Ponto associado à área de infraestrutura de transporte rodoviário.
+40,v0.4,75,TransNoRodovia,Nó rodoviário,GM_Point,3D,05,Transportes,05.04,Transporte rodoviário,"Ponto utilizado para representar a conectividade entre segmentos de estradas, estabelecer a relação com outras vias de comunicação e com as infraestruturas associadas à rodovia."
+41,v0.4,76,TransSegEstrada,Segmento da estrada,GM_Curve,3D,05,Transportes,05.04,Transporte rodoviário,Objeto geográfico linear que descreve a geometria e conectividade entre dois pontos da rede rodoviária.
+42,v0.4,79,ConstrLinear,Construções lineares,GM_Curve,2D,06,Construções,,,"Construções de forma linear não enquadráveis no conceito de Edifícios INSPIRE, considerados em levantamentos de grandes escalas, como muros, sebes, gradeamentos, etc."
+43,v0.4,80,Edificios,Edifício,GM_Point; GM_Surface,2D,06,Construções,,,"Construção em alvenaria, betão ou outro material, com um ou vários pisos, de caráter permanente, em geral limitada por paredes e teto, que serve de habitação ou constitui um espaço comercial, industrial, administrativo, religioso, cultural, etc."
+44,v0.4,83,OutraConstrPoligonal,Outras construções poligonais,GM_Point; GM_Surface,2D,06,Construções,,,"Construções poligonais não enquadráveis no conceito de Edifícios INSPIRE, considerados em levantamentos de grandes escalas, como equipamentos de jardins, campos de jogos, piscinas."
+45,v0.4,85,AreasAgricolasFlorestaisMatos,"Áreas agrícolas, florestais ou matos",GM_Surface,2D,07,Ocupação do solo,,,Áreas naturais de ocupação do solo.
+46,v0.4,86,AreasArtificializadas,Áreas artificializadas,GM_Surface,2D,07,Ocupação do solo,,,Áreas artificializadas de ocupação do solo.
+47,v0.4,88,CaboElectrico,Cabo elétrico,GM_Curve,2D,08,Infraestruturas e serviços públicos,,,Segmento ou sequência de segmentos de utilidade pública para transportar eletricidade de um local para outro.
+48,v0.4,89,CondutaDeAgua,Conduta de água,GM_Curve,2D,08,Infraestruturas e serviços públicos,,,Conduta de água utilizada para transportar água de um local para outro.
+49,v0.4,91,ElementoAssociadoAgua,Elemento associado de água,GM_Point; GM_Surface,2D,08,Infraestruturas e serviços públicos,,,Segmento ou sequência de segmentos de utilidade pública para transportar água de um local para outro.
+50,v0.4,93,ElementoAssociadoElectricidade,Elemento associado de eletricidade,GM_Point; GM_Surface,2D,08,Infraestruturas e serviços públicos,,,Instalação associada à transformação e distribuição de energia elétrica.
+51,v0.4,94,ElementoAssociadoPetroleoGazQuimicos,Elemento associado de petróleo-gás-químicos,GM_Point; GM_Surface,2D,08,Infraestruturas e serviços públicos,,,Instalação de armazenamento ou distribuição de produtos químicos.
+52,v0.4,96,ElementoAssociadoTelecomunicacoes,Elemento associado de telecomunicações,GM_Point,2D,08,Infraestruturas e serviços públicos,,,Instalação associada ao funcionamento da rede de telecomunicações.
+53,v0.4,97,InstalacaoDeGestaoAmbiental,Instalação de gestão ambiental,-,-,08,Infraestruturas e serviços públicos,,,"Estrutura física concebida, construída ou instalada para servir funções específicas relacionadas com fluxos de materiais ambientais, tais como fluxos de resíduos ou de águas residuais, ou uma área delimitada de terreno ou água utilizada para servir essas funções."
+54,v0.4,99,InstalacaoDeProducao,Instalação de produção,-,-,08,Infraestruturas e serviços públicos,,,"Instalação técnica para fins específicos industriais ou de produção, compreendendo todos os equipamentos."
+55,v0.4,100,OleodutoGasodutoProdutosQuimicos,"Oleoduto, gasoduto ou produtos químicos",GM_Curve,2D,08,Infraestruturas e serviços públicos,,,"Segmento ou sequência de segmentos de utilidade pública para transportar petróleo, gás ou produtos químicos de um local para outro."
+56,v0.4,102,ServicoPublico,Serviços públicos,-,-,08,Infraestruturas e serviços públicos,,,Serviços administrativos e sociais.
+57,v0.4,104,EquipamentoUrbano,Equipamento urbano,GM_Point; GM_Surface,2D,09,Equipamento urbano,,,Equipamento de utilidade pública destinado à prestação de serviços necessários ao funcionamento dos aglomerados urbanos.
